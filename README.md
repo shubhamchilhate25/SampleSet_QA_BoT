@@ -92,13 +92,13 @@ If you don’t have Docker installed, follow the installation instructions for y
 ### **2. Build the Docker Image**
 Run the following command in the project root to build the Docker image:
 ```bash
-docker build -t qa-bot .
+docker build -t sampleset-qa-bot .
 ```
 
 ### **3. Run the Docker Container**
 Once the image is built, run the container:
 ```bash
-docker run -p 8501:8501 qa-bot
+docker run -p 8501:8501 sampleset-qa-bot
 ```
 
 Navigate to `http://localhost:8501` in your browser to interact with the app.
